@@ -1,0 +1,245 @@
+
+:root {
+	--main-bg-color: #ffffff;
+	--dark-bg-color: #2F303A;
+	--grey-bg-color: #F5F4FA;
+	--accent-color: #2196F3;
+	--main-text-color: #757575;
+	--secondary-text-color: #212121;
+	--dark-bg-text-color: #ffffff;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color); 
+}
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
+
+.logo.link {
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.logo-web {
+ 	color: var(--accent-color);
+}
+.logo-studio {
+ 	color: #000000;
+}
+
+/* Site nav */
+.site-nav .link {	
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+
+}
+.site-nav .link:focus,
+.site-nav .link:hover {
+	color: var(--accent-color);
+}
+
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
+.contact-nav .link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--main-text-color);
+}
+.contact-nav .link:focus,
+.contact-nav .link:hover {
+	color: var(--accent-color);
+}
+
+
+/* Hero */
+.hero {
+	background-color: var(--dark-bg-color);
+}
+
+.hero-title {	
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--dark-bg-text-color);
+}
+
+/* Sections */
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color); 
+}
+
+.list-title {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1,14;
+	text-transform: uppercase;
+	color: var(--secondary-text-color); 
+}
+
+/* Our features section */
+.our-features .list-title {
+	font-weight: 700;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+}
+
+.our-features .features-item { 
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+}
+
+/* Our team section */
+.our-team {
+	background-color: var(--grey-bg-color);
+}
+
+.our-team .list-item {
+	background-color: var(--main-bg-color);	
+}
+
+.our-team .list-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	text-align: center;
+	text-transform: none; 
+}
+.our-team .team-item {
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+/* Portfolio page */
+
+
+.our-work .list-title  {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2.0;
+	letter-spacing: 0.06em;
+}
+
+.our-work .work-item {
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer {
+	background-color: var(--dark-bg-color);
+}
+.logo-studio-light {
+	color: var(--dark-bg-text-color);
+}
+.footer .address-item {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+.footer .address {
+	color: var(--dark-bg-text-color);
+}
+.footer .link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link:focus,
+.footer .link:hover {
+	color: var(--accent-color);
+}
+
+/* Buttons */
+
+.button {
+	cursor: pointer;
+}
+
+.hero .button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	background-color: var(--accent-color);
+	color: var(--dark-bg-text-color);
+}
+
+.hero .button:hover,
+.hero .button:focus {
+	background-color: #188CE8;
+}
+
+.filter-button .button {	
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background-color: var(--grey-bg-color); 
+}
+
+.filter-button .button:hover,
+.filter-button .button:focus {
+	background-color: var(--accent-color);
+	color: var(--dark-bg-text-color);
+}
+
+/*Hidden titles*/
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
