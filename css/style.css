@@ -165,18 +165,18 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Hero */
 .hero {
-	border:1px solid transparent;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	background-color: var(--dark-bg-color);
+
 }
 
 .hero-title {
 	display: block;
 	max-width: 696px; 
-	padding-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom:30px;
-
 	color: var(--dark-bg-text-color);	
 	font-weight: 900;
 	font-size: 44px;
@@ -220,7 +220,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .our-features .features-item { 
-	line-height: 1.14;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	margin-bottom: 0px;
 }
@@ -314,6 +314,8 @@ h1,h2,h3,h4,h5,h6,p {
 /* Footer */
 
 .footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: var(--dark-bg-color);
 }
 .logo-studio-light {
@@ -321,7 +323,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .logo-footer {
-	padding-top: 60px;
 	margin-bottom: 20px;
 }
 .footer .address-item {
@@ -335,7 +336,6 @@ h1,h2,h3,h4,h5,h6,p {
 .contacts-block {
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 60px;
 }
 .contact-item{
 	margin-bottom: 9px;
@@ -360,9 +360,7 @@ h1,h2,h3,h4,h5,h6,p {
 	cursor: pointer;
 	border: none;
 }
-.hero-button {
-	padding-bottom: 200px;
-}
+
 .hero .button {
 	display: block;
 	min-width: 200px;
